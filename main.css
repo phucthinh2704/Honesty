@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 95%;
+  margin: 0 auto;
+  background-color: rgba(245, 230, 237, 0.8);
+}
+header {
+    border: 5px solid blue;
+}
+.inner__header {
+  height: 100px;
+  padding: 20px 30px;
+  background-color: #111;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inner__header input {
+    height: 30px;
+    width: 200px;
+    padding-left: 5px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+nav {
+  display: flex;
+}
+.inner__header a {
+  text-decoration: none;
+  display: block;
+  color: yellow;
+  padding: 7px 15px;
+  font-size: 22px;
+  border-radius: 10px;
+  transition: 0.2s linear;
+  font-weight: bold;
+}
+.inner__header a:hover {
+  background-color: green;
+}
+.logo {
+  width: 50px;
+}
+.logo img {
+  width: 100%;
+  object-fit: cover;
+}
+.input-search button {
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+main {
+  margin-top: 20px;
+  border: 5px solid blue;
+  padding: 20px;
+}
+main > p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+.banner img {
+  width: 100%;
+  object-fit: cover;
+}
+article {
+  display: flex;
+}
+article {
+  margin-top: 20px;
+}
+.left {
+  width: 66.6%;
+}
+.left h1 {
+  text-transform: uppercase;
+  font-size: 34px;
+  color: blue;
+  text-shadow: 0 0 2px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.left p {
+  margin-top: 17px;
+  font-size: 20px;
+  margin-bottom: 15px;
+  line-height: 30px;
+}
+.right {
+  width: calc(100% - 66.6%);
+}
+ol {
+  background-color: white;
+  padding: 10px 20px;
+}
+ol li {
+  margin-left: 28px;
+  font-size: 18px;
+  line-height: 40px;
+}
+.main__photo {
+  float: right;
+  margin-left: 10px;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+.right {
+    margin-left: 30px;
+    font-size: 18px;
+}
+.right h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.right p {
+    margin-bottom: 20px;
+}
+.right ul {
+    list-style-type: '\2727';
+}
+.right ul li {
+    margin-left: 35px;
+    margin-bottom: 15px;
+    background-color: #cce5ff;
+}
+.page-footer {
+    text-align: center;
+    font-weight: bold;
+    padding: 30px;
+    color: black;
+    border: 5px solid blue;
+    background: rgba(255, 99, 71, 0.24);
+    margin-top: 30px;
+    font-size: 20px;
+    color: darkred;
+}
